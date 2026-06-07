@@ -1,0 +1,30 @@
+{
+  "repository_name": "Supply-Chain-Digital-Twin",
+  "github_account": "net421",
+  "about": "Industrial Supply Chain Digital Twin featuring Monte Carlo simulation, network science, intervention optimization, resilience analytics and executive decision support.",
+  "topics": [
+    "supply-chain",
+    "digital-twin",
+    "monte-carlo",
+    "python",
+    "numba",
+    "analytics-engineering",
+    "data-science",
+    "operations-research",
+    "simulation",
+    "inventory-management",
+    "optimization",
+    "network-analysis",
+    "decision-intelligence",
+    "resilience-engineering"
+  ],
+  "included_assets": {
+    "hero_banner": "docs/assets/hero_banner.png",
+    "architecture_diagram": "docs/assets/architecture_diagram.png",
+    "dashboards_png": "dashboards/png",
+    "dashboards_pdf": "dashboards/pdf",
+    "dashboards_html": "dashboards/html"
+  },
+  "entrypoint": "run_all.py",
+  "publish_script": "publish_repo.bat"
+}

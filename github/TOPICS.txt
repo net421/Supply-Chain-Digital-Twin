@@ -1,0 +1,14 @@
+supply-chain
+digital-twin
+monte-carlo
+python
+numba
+analytics-engineering
+data-science
+operations-research
+simulation
+inventory-management
+optimization
+network-analysis
+decision-intelligence
+resilience-engineering

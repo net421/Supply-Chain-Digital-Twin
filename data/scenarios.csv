@@ -1,0 +1,6 @@
+scenario,demand_multiplier,failure_multiplier,lead_time_multiplier
+baseline,1.0,1.0,1.0
+demand_shock_20,1.2,1.0,1.0
+leadtime_shock_50,1.0,1.0,1.5
+crisis_failures_2x,1.0,2.0,1.2
+near_critical,1.12,1.35,1.25
