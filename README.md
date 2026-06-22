@@ -213,7 +213,8 @@ Supply-Chain-Digital-Twin/
 │   └── html/
 │
 ├── docs/
-│   └── assets/
+│   ├── assets/
+│   └── near_critical_research_lineage.md
 │
 └── github/
 ```
@@ -320,3 +321,35 @@ The framework extends traditional supply-chain analytics by incorporating:
 - Near-critical operating regimes
 
 The goal is to bridge industrial decision support and resilience engineering within a reproducible Digital Twin environment.
+
+---
+
+## Research lineage: near-critical systems extension
+
+This supply-chain digital twin includes a resilience layer derived from prior near-critical systems research. The original near-critical benchmark supplied the stability-margin logic, where a node is considered physically near critical when its expected supply-demand margin is small:
+
+`delta = expected_supply - expected_demand`
+
+The digital-twin extension translates that single-node idea into a networked supply-chain setting. Instead of using near-criticality only as a theoretical indicator, the platform uses it as a decision variable for preventive intervention thresholds.
+
+### What came from the near-critical benchmark
+
+- Stability-margin variable `delta`.
+- Preventive threshold-control logic.
+- Collapse-to-prevention cost ratio `K_fail / K_prevent`.
+- Physical/economic boundary interpretation.
+- Monte Carlo comparison against run-to-failure and static safety policies.
+
+### What this digital twin adds
+
+- Multi-echelon supply-chain structure: suppliers, factories, distribution centers, warehouses, and customers.
+- Network-aware threshold policy.
+- Node-level and network-level stockout/lost-demand evaluation.
+- Delta-controlled demand scaling.
+- Policy surfaces over physical criticality and economic severity.
+
+The associated research package is maintained separately here:
+
+[Near-Critical Network Digital Twin](https://github.com/net421/near-critical-network-digital-twin)
+
+For a clearer explanation of what was reused and what was newly added, see [`docs/near_critical_research_lineage.md`](docs/near_critical_research_lineage.md).
